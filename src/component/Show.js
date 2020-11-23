@@ -9,10 +9,10 @@ class Show extends React.Component{
     render(){
         return(
             <>
-            <h2>hi </h2>
-           {this.state.students.filter(item=> item.age>18).map(item =>(
+            {/* <h2>hi </h2> */}
+           {/* {this.state.students.filter(item=> item.age>18).map(item =>(
               <h2>{item.name + " " + item.age} </h2>     
-           ) ) }
+           ) ) } */}
            </>
         )
     }

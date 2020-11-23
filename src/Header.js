@@ -5,9 +5,7 @@ function Header(){
         <div>
         <img src={Logo} alt='' width='200px' />
         </div>
-        <div>heading</div>
-        <div>links</div>
        </>
     );
 }
-export default Header;
+// export default Header;
