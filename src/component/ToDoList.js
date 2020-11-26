@@ -13,7 +13,13 @@ class ToDoList extends React.Component{
     }
     addtodos = (todo) =>{
         console.log(todo);
+        let newobj2 = [...this.state.todos]
+        newobj2.push(todo)
+        this.setState({
+            todos: newobj2
+        })
     }
+
     render(){
         return(
             <>
